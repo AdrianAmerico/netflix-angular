@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  menuOpened = false;
   listTitles = [
     {
       trailer: 'https://www.youtube.com/embed/5qap5aO4i9A',
@@ -52,4 +53,12 @@ export class AppComponent {
       year: 2008,
     },
   ];
+
+  public setMenuState(state: boolean) {
+    this.menuOpened = state;
+  }
+
+  public closeMenu() {
+    this.menuOpened = false;
+  }
 }
