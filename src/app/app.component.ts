@@ -9,7 +9,7 @@ export class AppComponent {
   menuOpened = false;
   listTitles = [
     {
-      trailer: 'https://www.youtube.com/embed/5qap5aO4i9A',
+      trailer: 'assets/videos/Iron Man 2 Official Trailer #1 (2010) - Marvel Movie HD.mp4',
       title: 'The Shawshank Redemption',
       cover: './assets/images/guardios-da-galaxia.jpg',
       name: 'The Shawshank Redemption',
@@ -20,7 +20,8 @@ export class AppComponent {
       year: 2000,
     },
     {
-      trailer: 'https://www.youtube.com/embed/5qap5aO4i9A',
+      trailer:
+        './assets/videos/capitao_america_o_primeiro_vingador_trailer__360p.mp4',
       title: 'The Shawshank Redemption 2',
       cover: './assets/images/guardios-da-galaxia.jpg',
       name: 'The Shawshank Redemption 2',
@@ -31,7 +32,8 @@ export class AppComponent {
       year: 2002,
     },
     {
-      trailer: 'https://www.youtube.com/embed/5qap5aO4i9A',
+      trailer:
+        './assets/videos/capitao_america_o_primeiro_vingador_trailer__360p.mp4',
       title: 'The Shawshank Redemption 3',
       cover: './assets/images/guardios-da-galaxia.jpg',
       name: 'The Shawshank Redemption 3',
@@ -42,7 +44,8 @@ export class AppComponent {
       year: 2008,
     },
     {
-      trailer: 'https://www.youtube.com/embed/5qap5aO4i9A',
+      trailer:
+        './assets/videos/capitao_america_o_primeiro_vingador_trailer__360p.mp4',
       title: 'The Shawshank Redemption 4',
       cover: './assets/images/guardios-da-galaxia.jpg',
       name: 'The Shawshank Redemption 4',
