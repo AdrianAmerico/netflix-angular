@@ -9,7 +9,14 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { TitleComponent } from './shared/title/title.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, FullBannerComponent, ListTitlesComponent, FooterComponent, TitleComponent],
+  declarations: [
+    AppComponent,
+    NavBarComponent,
+    FullBannerComponent,
+    ListTitlesComponent,
+    FooterComponent,
+    TitleComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
